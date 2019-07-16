@@ -19,6 +19,7 @@ public class Ex8_1 {
 				String formattedResult = Double.toString(result);
 				System.out.println("That number plus one is " + formattedResult + ".");
 			}
+			
 			System.out.println("Would you like to keep going? (y/n) ");
 			if (scan.nextLine().equals("y")) {
 				keepGoing = true;
@@ -29,10 +30,6 @@ public class Ex8_1 {
 			
 		}	
 		while (keepGoing == true);
-			
-		
-		
-		
 		
 		scan.close();
 		}
