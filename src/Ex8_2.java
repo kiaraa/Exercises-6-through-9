@@ -9,6 +9,7 @@ public class Ex8_2 {
 			System.out.println("Please enter a number.");
 			double input = scan.nextDouble();
 			System.out.println("That number plus 0.5 is " + (input + 0.5) + ".");
+			scan.nextLine();
 			
 			System.out.println("Would you like to keep going? (y/n) ");
 			if (scan.nextLine().equals("y")) {
